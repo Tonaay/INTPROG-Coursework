@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ objectRadius\ machine
+comment0.target=Hole(int,\ int,\ double,\ Machine)
+numComments=1

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ objectRadius\ theMachine
+comment0.target=Ball4(int,\ int,\ double,\ double,\ java.awt.Color,\ double,\ Machine)
+comment0.text=\r\n\ Initiate\ the\ values\ of\ the\ Pinball\ -\ Inherit\ the\ Pinball\ class.\r\n@param\ xPos\ The\ x\ coordinate\ of\ the\ pinball\r\n\ @param\ yPos\ The\ y\ coordinate\ of\ the\ pinball\r\n\ @param\ xVel\ The\ horizonal\ velocity\ of\ the\ pinball\r\n\ @param\ yVel\ The\ vertical\ velocity\ pinball\r\n\ @param\ objectColor\ The\ colour\ of\ the\ pinball\r\n\ @param\ objectRadius\ The\ radius\ of\ the\ pinball\r\n\ @param\ machine\ The\ machine\ the\ pinball\ is\ located\ at\r\n
+comment1.params=
+comment1.target=void\ wallCollision()
+comment1.text=\r\n\ Change\ colour\ when\ colliding\ with\ a\ wall\r\n
+comment2.params=
+comment2.target=double\ getMagnitude()
+comment2.text=\r\n\ Calculate\ the\ magnitude\ of\ the\ pinball\ by\ using\ the\ pythagorean\ theorem\r\n\ @return\ Rerieve\ the\ maginute\ \r\n
+comment3.params=
+comment3.target=void\ collide()
+comment3.text=\r\n\ Collision\ when\ pinball\ hits\ another\ pinball.\ -\ Changes\ direction\r\n
+comment4.params=
+comment4.target=void\ getRandomColour()
+comment4.text=\r\n\ Generates\ a\ random\ colour\r\n
+numComments=5
