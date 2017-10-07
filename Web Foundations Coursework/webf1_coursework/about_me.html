@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/about_me.css">
+    <title>About</title>
+    <meta name="theme-color" content=#032663>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <main class="mainBox fadein">
+
+        <header id="banner">
+            <h1>About</h1>
+        </header>
+
+        
+        <nav>
+            <ul class="topnav" id="nav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="work.html">Artwork</a></li>
+                <li><a href="discovery_log.html">Discovery Log</a></li>
+                <li class="currentPage"><a href="about_me.html">About</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="changeNavigation()">☰</a>
+                </li>
+            </ul>
+        </nav>
+
+    <script>
+        function changeNavigation() {
+            var x = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+
+        <section class="blackBox"><h2 class="text_center">Pixel portrait of UP821148</h2>
+            <p><img class="center half" src="i/Tonay.png" alt="pixel art of me"></p>
+            <p>Hello, I am student UP821148, and currently studying BSc (Hons) Software Engineering at the University of Portsmouth.</p>
+
+            <div id="outline"></div>
+
+            <p>The units I do in my first year of this course are:</p>
+            <ul>
+                <li class="whiteList">U21261-16YR​​-MATHS Introduction To Programming (MATHS​)</li>
+                <li class="whiteList">U21261-1​6YR Introduction To Programming (INTPROG) (201​6)</li>
+                <li class="whiteList">U21259-16YR Introduction to Database Design and Development (INDADD) (2016)</li>
+                <li class="whiteList">U23829-16YR Computer Architecture (CAR) (2016)</li>
+                <li class="whiteList">U21262-16YR Network Fundamentals (NETFUN) (2016)</li>
+                <li class="whiteList">U21260-16YR Web Foundations 1 (WEBF1) (2016)</li>
+            </ul>
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li class="whiteList">Playing the guitar / ukulele</li>
+                <li class="whiteList">Drawing</li>
+                <li class="whiteList">Gaming</li>
+                <li class="whiteList">Table Tennis</li>
+                <li class="whiteList">Fishing</li>
+            </ul>
+
+
+            <h2>My Friends</h2>
+            <img src="i/abu.png" alt="Image of Abu" class="half"><img src="i/ant.png" alt="Image of Antonious" class="half">
+
+            <p>My dad, the living meme.</p>
+        <video controls preload="" width="400">
+            <source src="i/video.mp4" type="video/mp4">
+            <source src="i/video.mp4" type="video/webm">
+            <source src="i/video.mp4" type="video/ogg">
+              Your browser does not support HTML5 video.
+         </video>
+
+         <footer id="footer">
+                    <p>&copy; UP821148 - 2017</p>
+                    <p>This website is validated by HTML5, <a href="https://validator.w3.org/check?uri=referer" class="link"> validator</a>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer/" class="link">validator CSS</a></p>
+                </footer>
+                
+        </section>
+
+             
+
+    </main>
+
+
+
+</body>
+
+</html>

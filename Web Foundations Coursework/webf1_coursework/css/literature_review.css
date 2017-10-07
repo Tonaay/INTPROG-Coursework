@@ -1,0 +1,63 @@
+ body {
+            background-position: left;
+        }
+
+        #banner {
+            background: #032663 url(../i/wallpaper.jpg);
+            background-position: left;
+            background-repeat: no-repeat;
+            background-attachment: absolute;
+        }
+
+        #footer {
+            color:black;
+        }
+
+        .outline {
+            border: 1px solid black;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        h2 {
+            color: #003566;
+        }
+
+        h3 {
+            color: #336699;
+            text-decoration: underline;
+        }
+
+        .link {
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .link a {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .reference {
+            color: #00111a;
+            word-wrap: break-word;
+            white-space: pre-line;
+            overflow: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td {
+            text-align: left;
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+   

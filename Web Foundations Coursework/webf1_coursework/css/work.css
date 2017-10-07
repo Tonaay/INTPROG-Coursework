@@ -1,0 +1,44 @@
+
+    body{
+        background-position: top left;  
+    } 
+
+    #banner {
+      background: #032663 url(../i/wallpaper.jpg);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-attachment: absolute;
+    } 
+
+    h3 {
+        color: #336699;
+        text-decoration: underline;
+    }
+    .mainBox{
+      background: rgba(0, 0, 0, 0.9);
+      overflow:hidden;
+    }
+
+    p {
+        color: white;
+    }
+
+    ol li{
+        color: white;
+    }
+
+    .link {
+        color: #bfd4ff;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .link a{
+        color: #bfd4ff;
+        text-decoration: underline;
+    }
+
+     ol li a:hover {
+        background-color: white;
+        color: black;
+    }

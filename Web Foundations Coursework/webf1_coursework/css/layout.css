@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Rubik');
+
+
+      body {
+        background: #032663 url(../i/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        font-family: 'Rubik', sans-serif;
+        margin: 0 auto;
+      }
+
+      .mainBox{
+        margin: 0 auto;
+        width: 70%;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        border: 3px;
+        box-shadow: 10px 10px 5px black;
+        overflow: hidden;
+        display: block;
+        border-radius: 25px 25px 0px 0px;
+        font-family: 'Rubik', sans-serif;
+      }
+
+      .whiteBox{
+        margin: auto;
+        background: white;
+        padding: 40px;
+        border: 3px;
+        overflow: hidden;
+        animation-name: fadein;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;  
+      }
+
+       .blackBox{
+        margin: auto;
+        padding: 40px;
+        border: 3px;
+        overflow: hidden;
+
+        animation-name: fadein;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;  
+
+      }
+
+
+      .full{
+          width: 100%;
+      }
+
+      .half{
+          width: 50%;
+      }
+
+      .center{
+        display: block;
+        margin: 0 auto;
+      }
+
+      .text_center{
+        text-align: center;
+      }
+
+
+      #footer {
+        width: 100%;
+        height: 32px;
+        float: left;
+        text-align: center;
+        color: white;
+        font-size:0.85em;
+        display: inline-block;
+        height: 100%;
+      }
+
+      .outline {
+        border: 1px solid white;
+      }
+
+      #banner {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 150px;
+        padding: 30px 0 30px 0;
+        border-radius: 25px 25px 0px 0px;
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        animation-name: fadein;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;  
+      }
+
+      ol li a:hover {
+        background-color: black;
+        color: white;
+      }
+
+      h1{
+      	font-family: 'Kaushan Script', cursive;
+        color: white;
+        text-align: center;
+        font-size:50px;
+        text-decoration: underline;
+
+        animation-name: dropDown;
+        animation-timing-function: ease-out;
+        animation-duration: 1.5s;
+
+        transition: all .2s ease-in-out;
+      }
+
+      h1:hover{
+      	transform: scale(1.1);
+      }
+
+      h2{
+        font-family: 'Rubik', sans-serif;
+        color:white;
+        text-align: center;
+        font-size:20px;
+      }
+
+      h3{
+        font-family: 'Rubik', sans-serif;
+      }
+
+      p{
+        font-size: 1em;
+      }
+
+      .currentPage{
+        background: #032663;
+        border-radius: 10px;
+      }
+
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1b1c1e;
+        animation: slideRight 1s;
+      }
+
+      ul.topnav li {
+        display: inline-block;
+      }
+
+      ul.topnav li a {
+        display: inline-block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        transition: padding 0.3s;
+        font-size: 20px;
+        
+      }
+
+      ul.topnav li a:hover {
+        background-color: #444649;
+        padding: 14px 35px;
+        border-radius: 10px;
+      }
+
+      ul.topnav li.currentPage a:hover {
+        background-color: #013ea8;
+      }
+
+
+      ul.topnav li.icon {
+        display: none;
+      }
+
+      @media screen and (max-width:680px) {
+        ul.topnav li:not(:first-child) {display: none;}
+        ul.topnav li.icon {
+          float: right;
+          display: inline-block;
+        }
+        .mainBox{width:95%; padding:10px;}
+        .whiteBox,.blackBox{padding:10px;}
+        h1{font-size: 40px;}
+        h1:hover{font-size: 50px;}
+      }
+
+      @media screen and (max-width:680px) {
+        ul.topnav.responsive {position: relative;}
+        ul.topnav.responsive li.icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        ul.topnav.responsive li {
+          float: none;
+          display: inline;
+        }
+        ul.topnav.responsive li a {
+          display: block;
+          text-align: left;
+        }
+      }
+
+      .image {
+          width: 50%;
+          transition: all 1s ease-in-out;
+      }
+
+      .image:hover {
+          width: 100%;
+      }
+
+        @keyframes slideRight {
+        0% {
+          opacity:0;
+          transform: translateX(-100%);
+        }
+        100% {
+          opacity:1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes fadein {
+          0% {
+              opacity:0;
+          }
+          50% {
+              opacity:0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+
+      @keyframes dropDown {
+
+		0% {
+          transform: translateY(50%);
+        }
+        100% {
+         
+          transform: translateX(0);
+        }
+      }

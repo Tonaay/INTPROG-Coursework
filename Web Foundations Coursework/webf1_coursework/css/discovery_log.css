@@ -1,0 +1,73 @@
+ body {
+            background-position: top right;
+        }
+
+        #banner {
+            background: #032663 url(../i/wallpaper.jpg);
+            background-position: top right;
+            background-repeat: no-repeat;
+            background-attachment: absolute;
+        }
+
+        #footer {
+            color:black;
+        }
+
+        .mainBox {
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 10px 10px 5px #000000;
+            overflow: hidden;
+        }
+
+        .outline {
+            border: 1px solid black;
+        }
+
+        h2 {
+            color: #003566;
+            text-align: left;
+            font-size: 35px;
+        }
+
+        h3 {
+            color: #336699;
+            text-decoration: underline;
+        }
+
+        p {
+            color: black;
+        }
+
+        .list {
+            font-size: 20px;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+
+        td {
+            text-align: left;
+            border: 1px solid black;
+            padding: 3px;
+            font-size: 1em;
+        }
+
+        .link {
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .link a {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .geoff {
+            width: 70%;
+        }

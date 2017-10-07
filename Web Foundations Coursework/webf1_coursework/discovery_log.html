@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/discovery_log.css">
+    <title>Discovery Log</title>
+    <meta name="theme-color" content=#032663>
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <main class="mainBox">
+
+        <header id="banner" class="fadein">
+            <h1>Discovery Log</h1>
+        </header>
+
+
+        <nav>
+            <ul class="topnav" id="nav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="work.html">Artwork</a></li>
+                <li><a href="literature_review.html">Literature Review</a></li>
+                <li class="currentPage"><a href="discovery_log.html">Discovery Log</a></li>
+                <li><a href="about_me.html">About</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="changeNavigation()">☰</a>
+                </li>
+            </ul>
+        </nav>
+
+    <script>
+        function changeNavigation() {
+            var x = document.getElementById("nav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+        <section class="whiteBox">
+            <h2>Literature Review / HTML / CSS </h2>
+
+            <p>This log contains my experiences of this unit as well as what I have learnt in order to produce my literature review as well as this website.</p>
+
+            <div class="outline"></div>
+
+            <h3>Contents</h3>
+            <ol>
+                <li><a class="link" href="#Prep">Coursework Preperation</a></li>
+                <li><a class="link" href="#LitReview">Literature Review</a></li>
+                <li><a class="link" href="#HTML">Learning HTML</a></li>
+                <li><a class="link" href="#FurtherDiscovery">Further Discovery</a></li>
+            </ol>
+
+            <div class="outline"></div>
+
+            <h2><a id="Prep">Coursework Preparation</a></h2>
+
+            <section>
+                <h3>WebF1 Worksheet: Preparation</h3>
+
+                <p>In this practical I have set up my Virtual Machine which I will be using in Web Foundations 1 as well as look for different text editors to decide which one is best for me to use. I have also completed the “Website Awards” worksheet and
+                    started to look into the further reading task.</p>
+
+                <p>Text Editors - I liked Atom because of the many useful packages which you could install to make coding more efficient. However Atom seems to use up more CPU on my own PC, which is why I ended up choosing sublime text 3 because it is more
+                    faster and lighter to use.</p>
+
+                <h3>Futher Reading – Information Security Management Principles (Second Edition)</h3>
+
+                <p><em>Notes on Further Reading</em>
+                    <p>
+
+                        <p>Confidentiality - Making sure that information is not made available or disclosed to unauthorised personell, entities or processes.</p>
+
+                        <p>Integrity - Information is only useful if it is complete and accurate, and remains so. This is important to make sure that certain people have appropriate authority to alter, update and delete information.</p>
+
+                        <p>Availability - Making sure that information is always available, therefore having to decide between security or availablity of information.</p>
+
+                        <p>Assets = Anything that has value to an organisation. Assets are split into three types.</p>
+                        <ol>
+                            <li class="list">Pure information</li>
+                            <li class="list">Physical assets such as computer systems or buildings.</li>
+                            <li class="list">Software which is used to manage and process information.</li>
+                        </ol>
+
+                        <p>Impact - The result of an information security incident, caused by a threat which affects the assets of the organisation.</p>
+
+                        <p>Information security policy concepts</p>
+
+                        <p>When an organisation forms a policy for its management of information assurance. This is usually a short statement from a chief executive where risks are acknowledged and that the business will take appropriate measures to deal
+                            with them.</p>
+
+            </section>
+
+            <div class="outline"></div>
+
+            <section>
+                <h2><a id="LitReview">Literature Review</a></h2>
+
+                <h3>WebF1 Worksheet: Web Security</h3>
+
+                <p>This practical consisted of discussing different types of information that are generated on a daily basis, I have discussed different types of data which could be public, personal and secret. To do this I paired up with a group of colleagues
+                    in order to discuss which types of information were more prioritised in terms of importance. </p>
+
+                <table>
+                    <tr>
+                        <td class="text_center">Public</td>
+                        <td class="text_center">Secret</td>
+                        <td class="text_center">Sensitive</td>
+                    </tr>
+                    <tr>
+                        <td>Entering/exiting the public building e.g. library</td>
+                        <td>Online Banking - Information on account details, money transfers (transfer ref)</td>
+                        <td>Card reader machines at shops - Purchasing goods, updating stocks</td>
+                    </tr>
+                    <tr>
+                        <td>Media streaming - Spotify, YouTube</td>
+                        <td>Bank pin number</td>
+                        <td>Logging on a computer - To access files/ systems</td>
+                    </tr>
+                    <tr>
+                        <td>Facebook - Liking and sharing posts</td>
+                        <td>Business plans within a company</td>
+                        <td>Facebook - Messaging</td>
+                    </tr>
+                    <tr>
+                        <td>Registering with card - Attendance</td>
+                        <td>Organisation (Restaurants & Fast Food chains) ingredients information private - e.g Coca Cola</td>
+                        <td>Texting/calling - Generated messages, recorded calls</td>
+                    </tr>
+                    <tr>
+                        <td>Bus system - Generates amount of passengers.</td>
+                        <td>TCP - Encrypted Sites</td>
+                        <td>Google - Browsing history, collect cookies, save password/ username, maps</td>
+                    </tr>
+                    <tr>
+                        <td>Coffee machine - Uses data to generate amount of sugar and type of beverage</td>
+                        <td>Military personnel and documents - Nuclear access codes, weapon plans, military plans</td>
+                        <td>Emails - Messages, attachments, files</td>
+                    </tr>
+                    <tr>
+                        <td>SmartTV - Broadcasts information from several channels</td>
+                        <td>Top secret information to national security - Clearance</td>
+                        <td>Post - Letters</td>
+                    </tr>
+                    <tr>
+                        <td>Vending Machine - Uses numbers to output a product</td>
+                        <td>Research data - medical</td>
+                        <td>Scientific Reports </td>
+                    </tr>
+                    <tr>
+                        <td>Printers - Gathers information from computers to print information onto paper.</td>
+                        <td>Dark web - Hidden illegal domains</td>
+                        <td>Government resources - funding and financial data</td>
+                    </tr>
+
+                </table>
+
+                <h3>Processing Information</h3>
+                <p>Social media services will categorise information in terms of how sensitive/confidential it is and if it would be appropriate to display to the public. They might receive the user's email and phone number, in which they won’t want it displayed
+                    to others on the site. However their name might be suitable to display publicly so other users can find them. It is critical to point out however, that a user’s password should not be displayed publicly to prevent unauthorised access
+                    or fraud. When exchanging information to third parties, it is essential for the service to gain authorisation to do this, with clear expression of what exact information can be shared.</p>
+
+                <h3>WebF1 Worksheet: Better Writing</h3>
+
+                <p>The purpose of this worksheet was to improve my writing by using appropriate phrasal verbs, adjectives, expressions, formal words and phrases</p>
+
+                <p>Choosing the appropriate expressions</p>
+                <ol>
+                    <li>Researchers have made considerable/great progress in understanding the problem. - Considerable</li>
+                    <li>We got/obtained preliminary results from the black box. - Obtained</li>
+                    <li>The results from some/numerous experiments will be summarised. - Numerous</li>
+                    <li>Loss of privacy a consequence/thing that can happen when posting photos online. - Consequence</li>
+                    <li>In academic writing, appropriate sources are really important/paramount. - Paramount</li>
+                    <li>Some ideas bubbling out of our thought percolator/arising from our research are are covered in that paper. - Arising from out research</li>
+                </ol>
+
+
+                <h3>WebF1 Worksheet: Literature Review</h3>
+                <p>From this worksheet, I was able to start off my literature by researching several articles through the Univerity's online library. My theme was going to be based around social engineering attacks; how people can infiltrate an organisation
+                    to steal personal information. This would include the types of typical methods an attacker would use as well as examples of major attacks which have happened in the past.</p>
+
+                <p>The only difficuly with finding the sources of information was trying to look for preventative measures because social engineering cannot be prevented as the methods of social engineering attacks is expanding.</p>
+
+
+            </section>
+
+            <div class="outline"></div>
+
+            <section>
+                <h2><a id="HTML">Learning Html</a></h2>
+
+                <h3>WebF1 Worksheet: HTML</h3>
+
+                <p>In this worksheet, I was to produce a basic HTML file with the following tags:</p>
+
+                <table>
+                    <tr>
+                        <td class="text_center"><code>doctype</code></td>
+                        <td class="text_center"><code>title</code></td>
+                        <td class="text_center"><code>h1</code></td>
+                        <td class="text_center"><code>p</code></td>
+                    </tr>
+                    <tr>
+                        <td>Sets the type of document</td>
+                        <td>Sets the title on the browser tab</td>
+                        <td>The header of the page</td>
+                        <td>A paragraph</td>
+                    </tr>
+                </table>
+
+                <p>I could then upload this page onto a virtual machine and create a web server to deploy the webpage.</p>
+
+                <h3>WebF1 Worksheet: Style</h3>
+                <p>CSS (Cascading Style Sheets) - Sets a rules for HTML pages on how the webpage contents should look. adds features instead of directly adding the features through the style tag on the HTML page.</p>
+
+                <p>Reasons for using CSS are:</p>
+
+                <ul>
+                    <li>ease of maintenance</li>
+                    <li>smaller overall file sizes</li>
+                    <li>increased semantic encoding, leading eventually to</li>
+                    <li>more content that can be processed on our behalf by machines.</li>
+                </ul>
+
+                <h3>WebF1 Worksheet: Links</h3>
+                <p>In order to navigate through a webpage, or access other pages on a website, I have learnt to use anchor tags which allows the user to quickly access through a contents page. I have also anchor tags as a way of navigating through webpages
+                    in my navigation bar.</p>
+
+                <p>I have also learnt to use targets and fragments to allow users to click on links which will open a new tag. (target="_blank")</p>
+
+                <h3>WebF1 Worksheet: Images</h3>
+
+                <p>Image tags can be used to add images into webpages. (img) followed by ("src=" - where is image is located) and an ("alt" - a name for the image if not loaded) </p>
+                <p>This worksheet helped me to learn how to manipulate images, changing the image width and height as well as the opacity, visibility and how the image is displayed.</p>
+
+                <table>
+                    <tr>
+                        <td><code>opacity: ##;</code></td>
+                        <td>Changes opacity</td>
+                    </tr>
+                    <tr>
+                        <td><code>visibilty: hidden;</code></td>
+                        <td>Hides image but other images will stay in their same positions</td>
+                    </tr>
+                    <tr>
+                        <td><code>display: none;</code></td>
+                        <td>Hides image and shifts other images</td>
+                    </tr>
+                </table>
+
+                <p>Images can also be used as emojis by setting the height of an image to 1em, which is the same height as the body text.</p>
+
+                <p>Float:</p>
+                <ul>
+                    <li>Adding a float attribute in styles allows an image to appear on the left or on the right side of the text</li>
+                    <li>float: left;</li>
+                </ul>
+                <p>Selectors:</p>
+                <ul>
+                    <li>Selectors can be used to manipulate objects on the page, for example hover .teapot:hover will add another selection of attributes to the class to make the teapot transform or change size when the user hovers the mouse over an image</li>
+                </ul>
+            </section>
+
+            <div class="outline"></div>
+
+            <section>
+                <h2><a id="FurtherDiscovery">Further Discovery</a></h2>
+
+
+                <h3>Java Script</h3>
+
+                <p>This practical session consisted of using java script to create a small canvas. In the canvas I was able to create a stick man which was animated to walk around the canvas.</p>
+
+                <p>By setting a variable you could set the drawing styles and how objects are drawn onto the canvas. Our lecturer had provided the class with a small game which was made in javascript. This was connected to a virtual machine so other colleagues
+                    could play with each other as well as alter the code.</p>
+
+                <p>Java scripting is also used in my website in the navigation bar. This allows the navigation bar to become a drop-down navigation bar when the screen width is 680 pixels or less.</p>
+
+                <h3>Accessibility</h3>
+
+                <p>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."</p>
+
+                <p>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</p>
+
+                <p>Accessibility is important in a website because it allows everyone to access a website universally. This means making sure that the website is operable, perceivable, understandable and robust.</p>
+
+                <p>This allows people with disabilities such as color blindness, deafness etc. to be able to use the website.</p>
+
+            </section>
+
+            <section>
+                <h3>Graphics with SVG</h3>
+
+                <img class="center geoff" src="i/geoff.svg" alt="Digital drawing of Geoff">
+
+                <p>This is a drawing of my friend I did using illustrator. I exported the file as an SVG and imported it into this page. You can test whether the quality has changed by zooming in.</p>
+
+                <p>SVG is a good replacement instead of using JPEG or PNG because it doesn't matter about your screen size, resolution, as well as zoom levels. SVG is vector based meaning that it is built from paths, shapes and lines. This allows the size
+                    to not lose it's quality at any resolution which is good for digital artworks, fonts, or even music sheets etc.</p>
+
+                <p>SVG's are just code which means loading is much faster as the file size is a lot smaller than that of a PNG or JPEG. As it is just code, you can manipulate certain lines and change parts of a drawing or even make them animate.</p>
+
+                <p>However, there are downsides of using SVG's such as that old browsers may not support them and also, complicated artwork or images which have thousands of nodes can be complex to implement so it is better to use JPEG or PNG in these circumstances.</p>
+
+                <p>SVG's are best used for small logos, icons, and simple graphics.</p>
+
+
+            </section>
+
+            <section>
+                <h3>Databases in Websites</h3>
+
+                <p>Websites are usually running on computer clients and on mobile computers.</p>
+
+                <p>Databases are usually stored inside a computer also. This database may be written in SQL therefore, needs to be translated to HTTP so they can communicate with each other, the computer can talk SQL to the database and HTTP to the clients
+                    using the website.</p>
+
+                <p>This is also known as Three-tier Architecture which includes Business Logic, Security and Validation as well as Data Storage Security.</p>
+
+                <p>In modern websites, there is an API between clients and the app server. API is a set of functions and procedures that allow a creation of an applications which can access features or data from the website.</p>
+
+                <p>In one of the lecturer's web application, I was able to play around with a shop page where I could add a list of goods into a cart and then check them out. This would then produce a list of all the items I had in API code. This would show
+                    the order containing the information of the buyer, as well as all the product quantity, price and other details.</p>
+
+            </section>
+
+            <div class="link"><a href="#Top">Go to Top</a></div>
+
+            <footer id="footer">
+                <p>&copy; UP821148 - 2017</p>
+                <p>This website is validated by HTML5, <a href="https://validator.w3.org/check?uri=referer" class="link"> validator</a>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer/" class="link">validator CSS</a></p>
+            </footer>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

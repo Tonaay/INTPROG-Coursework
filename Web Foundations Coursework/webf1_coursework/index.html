@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>Home Page</title>
+    <meta name="theme-color" content=#032663>
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <meta charset="UTF-8">
+
+
+</head>
+
+<body>
+    <main class="mainBox">
+
+        <header id="banner" class="fadein">
+            <h1>Web Portfolio</h1>
+        </header>
+
+        <nav>
+            <ul class="topnav" id="nav">
+                <li class="currentPage"><a class="active" href="index.html">Home</a></li>
+                <li><a href="work.html">Artwork</a></li>
+                <li><a href="literature_review.html">Literature Review</a></li>
+                <li><a href="discovery_log.html">Discovery Log</a></li>
+                <li><a href="about_me.html">About</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="changeNavigation()">☰</a>
+                </li>
+            </ul>
+        </nav>
+
+        <script>
+            function changeNavigation() {
+                var x = document.getElementById("nav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <section class="whiteBox">
+            <h2>WebF1 / U21260 - Web Foundations</h2>
+
+
+            <p>This website is part of an assessment. Here I will showcase all the work I have done throughout my time in this unit, as well as my art portfolio.</p>
+
+
+            <div class="outline"></div>
+
+            <section>
+                <h3>What to expect?</h3>
+
+                <ul>
+                    <li>
+                        <h2>Artwork</h2>A gallery of my artwork which includes work from A-Levels, GCSE and things I've done in my spare time.</li>
+                    <li>
+                        <h2>Literature Review</h2>Another part of the assessment for this unit. "The review will be covering a topic about prevention of personal information exposure over the web."</li>
+                    <li>
+                        <h2>Discovery Log</h2>See how I learnt HTML, CSS and more!</li>
+                    <li>
+                        <h2>About</h2>Information about UP821148.</li>
+                </ul>
+
+                <footer id="footer">
+                    <p>&copy; UP821148 - 2017</p>
+                    <p>This website is validated by HTML5, <a href="https://validator.w3.org/check?uri=referer"> validator</a>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer/">validator CSS</a></p>
+                </footer>
+
+            </section>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>

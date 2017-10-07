@@ -1,0 +1,57 @@
+  body {
+            background-position: bottom right;
+        }
+
+        .mainBox {
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 10px 10px 5px #000000;
+        }
+
+        #banner {
+            background: black;
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        p {
+            color: white;
+            font-size: 1em;
+        }
+
+        .blackBox {
+            margin: auto;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 40px;
+            padding-top: 2px;
+            border: 3px;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            max-width: 500px;
+            height: auto;
+        }
+
+        .whiteList {
+            color: white;
+        }
+
+        .link {
+        color: #bfd4ff;
+        text-align: center;
+        text-decoration: underline;
+        }
+
+        .link a{
+            color: #bfd4ff;
+            text-decoration: underline;
+        }
