@@ -1,4 +1,6 @@
 import java.awt.*;
+import java.util.Scanner;
+import javax.swing.*;
 /**
  * Class to demonstrate functionality of the Pinball machine
  * 
@@ -217,6 +219,35 @@ public class Demo
     }
     
     public static void main(String[] args) {
-        new Demo().testHoles();
+        JFrame frame = new JFrame("Demo");
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        String question = JOptionPane.showInputDialog(frame, "Enter a number 1 - 6");
+        try{
+            switch (question){
+                case "1" :
+                    new Demo().sampleDemo();
+                    break;
+                case "2" :
+                    new Demo().testBall8();
+                    break;
+                case "3" :
+                    new Demo().testBall4();
+                    break;
+                case "4" :
+                    new Demo().testBumpers();
+                    break;
+                case "5" :
+                    new Demo().testHoles();
+                    break;
+                case "6" :
+                    new Demo().testGap();
+                    break;
+            }
+        }
+        catch (Exception e){
+            frame.dispose();
+            System.exit(0);
+        }
+        frame.dispose();
     }
 }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="up821148:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/up821148_jar</output-path>
+    <root id="archive" name="up821148.jar">
+      <element id="module-output" name="up821148" />
+    </root>
+  </artifact>
+</component>

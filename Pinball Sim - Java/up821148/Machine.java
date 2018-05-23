@@ -76,6 +76,8 @@ public class Machine
        }
        drawString("S C O R E",new Font("Arial", Font.BOLD, 40), 200, 250);
        drawString(Integer.toString(getTotalPoints()),new Font("Arial", Font.BOLD, 40), 280, 300);
+       machine.wait(5000);
+       System.exit(0);
     }
         
     /**
